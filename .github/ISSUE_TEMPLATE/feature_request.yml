@@ -1,0 +1,22 @@
+name: 功能建议
+description: 描述你希望字牛帮助完成的事情
+title: "[建议] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 希望解决什么问题？
+      description: "请描述实际使用场景，以及现在不方便的地方。"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望怎样改进？
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 目前的处理办法或补充说明
+      description: "不要附带密码、令牌、私人项目或未经许可的字体文件。"
